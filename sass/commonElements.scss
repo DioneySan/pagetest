@@ -1,0 +1,105 @@
+/*Common Elements start*/
+/*-------------------------------------*/
+/*all*/
+* {
+  margin: 0pt;
+  padding: 0px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: $dark-color;
+  color: $ligth-color;
+  font-family: Syncopate, sans-serif;
+}
+
+a {
+  color: $ligth-color;
+}
+
+/* container*/
+.container-full {
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px 50px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/*button*/
+
+.btn {
+  padding: 15px 50px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 250px;
+  cursor: pointer;
+}
+
+.btn-solid {
+  background-color: $primary-color;
+  color: $ligth-color;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $ligth-color;
+  }
+}
+
+.btn-line {
+  border: 2px solid $primary-color;
+  color: $primary-color;
+  transition: 0.4s;
+  &:hover {
+    background-color: $primary-color;
+    color: $ligth-color;
+  }
+}
+
+/*Text*/
+.text-center {
+  text-align: center;
+}
+
+.title-gg {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+
+.title-p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.title-m {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.text-color {
+  color: $primary-color;
+}
+
+/*Common Elements end*/
+/*-------------------------------------*/

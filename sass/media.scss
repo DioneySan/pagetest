@@ -1,0 +1,55 @@
+/*Media start*/
+/*-------------------------------------*/
+@media (max-width: 700px) {
+  #home-top {
+    background-size: cover;
+  }
+
+  .container {
+    padding: 30px 20px;
+  }
+
+  .header {
+    .flexbox {
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+
+  .download-bnts .btn {
+    width: 70%;
+  }
+
+  /*Text*/
+  .title-gg {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .title-p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .title-m {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .header .flexbox {
+    justify-content: center;
+  }
+  .nav-links li {
+    display: none;
+  }
+}
+
+@media (max-width: 972px) {
+  /*Footer*/
+  footer > .flexbox {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

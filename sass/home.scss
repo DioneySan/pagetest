@@ -1,0 +1,139 @@
+/*Home start*/
+/*-------------------------------------*/
+
+/*Header*/
+
+.header {
+  .flexbox {
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .logo-top {
+    max-width: 200px;
+  }
+}
+
+/*Home top start*/
+
+#home-top {
+  background-image: url(../imgs/background-efeito-light-laranja.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.h-img-container {
+  width: 100%;
+  position: relative;
+}
+
+.h-p-absolute {
+  max-width: 600px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.h-img-color-bg-1 {
+  left: 0px;
+  transform: translate(0, -50%);
+}
+.h-img-color-bg-2 {
+  right: 0px;
+  transform: translate(0, -50%);
+}
+
+.title-home {
+  max-width: 900px;
+  margin: auto;
+}
+
+.img-home {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+/*Home top end*/
+
+/*Resources start*/
+
+#resources .flexbox {
+  align-items: stretch;
+}
+
+.title-resources {
+  max-width: 700px;
+}
+
+.resources-item {
+  flex: 1 0 300px;
+  border-radius: 10px;
+  background-color: $tertiary-color;
+  padding: 20px;
+
+  .container-item {
+    margin-top: 20px;
+    padding-left: 20px;
+    li {
+      list-style-type: disc;
+    }
+  }
+}
+
+.r-header-item {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+/*Resources end*/
+
+/*About start*/
+#about .about-boxs .flexbox {
+  align-items: stretch;
+}
+
+.about-box-title {
+  max-width: 900px;
+}
+.about-container-imgs {
+  img {
+    max-width: 315px;
+    border-radius: 10px;
+  }
+}
+
+.about-item {
+  flex: 1 0 300px;
+  padding: 40px;
+  background-color: $tertiary-color;
+  border-radius: 10px;
+  p {
+    margin-top: 30px;
+  }
+}
+/*About and*/
+/*Download start*/
+.download-box-title {
+  max-width: 500px;
+  margin: auto;
+}
+/*Download end*/
+
+/*Footer start*/
+
+.footer {
+  background-color: $tertiary-color;
+  .flexbox {
+    justify-content: space-between;
+  }
+  .logo-footer {
+    max-width: 150px;
+  }
+  .social-links {
+    .flexbox {
+      gap: 20px;
+    }
+  }
+}
+/*Footer end*/
